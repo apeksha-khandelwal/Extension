@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Record Extension",
+  "version": "2",
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": ["jquery-3.5.1.min.js", "content.js"]
+    }
+  ],
+  "permissions": ["downloads"]
+}
